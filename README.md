@@ -46,6 +46,7 @@ The idea of SVM is that the algorithm creates a line or a hyperplane which separ
 
 #### Hyper Parameters:
 •	C: 3
+
 •	Kernel Functions:  SVC with linear kernel
 
 ### 3.	Logistic Regression: 
