@@ -31,6 +31,7 @@ Polynomial Regression a form of Linear regression known as a special case of Mul
 ●	MSE: 461662358925.458
 ●	Training Time: about 0.3 sec.
 
+###### 
 
 ## Classification Techniques Used:
 ### 1.	AdaBoost with Decision Tree: 
