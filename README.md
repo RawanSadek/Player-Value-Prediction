@@ -9,3 +9,9 @@ The objective of the projects is to apply different machine learning algorithms 
 6.	SimpleImputer: replaces null values found in columns with numeric values using a certain strategy (ex: Median). 
 7.	FeatureScaling: scales large numeric values.
 8.	Body_type Preprocessing: a function to replace null values with a calculated numeric value that represents the body type by using BMI rules.
+
+## Dataset Analysis: 
+We used the heat map function to know how each feature affects the other.
+![image](https://user-images.githubusercontent.com/76558250/224090818-b25dc0d9-84d7-4ae9-a3e1-480580bc0e5a.png)
+
+
