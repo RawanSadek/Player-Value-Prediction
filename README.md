@@ -1,4 +1,4 @@
-Player-Value-Prediction
+# Player-Value-Prediction
 The objective of the projects is to apply different machine learning algorithms to real-world tasks. We will show how to clean data, applying pre-processing, feature scaling, regression, and classification methods. Given the provided datasets, we would like to understand and predict a player’s value/level based on the provided data.
 ## Preprocessing techniques applied on the dataset: 
 1.	Get dummies: used on body_type column to separate the categorical data into 3 columns; body type lean, body type normal, body type stocky.
@@ -35,8 +35,7 @@ Polynomial Regression a form of Linear regression known as a special case of Mul
 ### 1.	AdaBoost with Decision Tree: 
 AdaBoost is an ensemble learning method (also known as “meta-learning”) which was initially created to increase the efficiency of binary classifiers. AdaBoost uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones.
 AdaBoost, short for Adaptive Boosting, is a statistical classification meta-algorithm.
-
-	Hyper Parameters of Decision Tree:
+#### Hyper Parameters of Decision Tree:
 •	Max_depth: 3  92.37730595196658
                        5  95.47511312217195
                        6  95.63974939088061 
