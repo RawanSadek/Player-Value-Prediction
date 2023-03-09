@@ -15,8 +15,11 @@ We used the heat map function to know how each feature affects the other.
 ![image](https://user-images.githubusercontent.com/76558250/224090818-b25dc0d9-84d7-4ae9-a3e1-480580bc0e5a.png)
 
 ## Regression Techniques Used:
-1.	XGBoost: XGBoost is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library. It provides parallel tree boosting and is the leading machine learning library for regression, classification, and ranking problems.
-2.	Polynomial Regression: Polynomial Regression a form of Linear regression known as a special case of Multiple linear regression which estimates the relationship as an nth degree polynomial. Polynomial Regression is sensitive to outliers so the presence of one or two outliers can also badly affect the performance.
+### 1.	XGBoost: 
+XGBoost is a scalable, distributed gradient-boosted decision tree (GBDT) machine learning library. It provides parallel tree boosting and is the leading machine learning library for regression, classification, and ranking problems.
+
+### 2.	Polynomial Regression: 
+Polynomial Regression a form of Linear regression known as a special case of Multiple linear regression which estimates the relationship as an nth degree polynomial. Polynomial Regression is sensitive to outliers so the presence of one or two outliers can also badly affect the performance.
 
 ## Differences Between Each Model and The Acquired Results:
 ### 1.	XGBoost:
