@@ -36,55 +36,29 @@ Polynomial Regression a form of Linear regression known as a special case of Mul
 AdaBoost is an ensemble learning method (also known as “meta-learning”) which was initially created to increase the efficiency of binary classifiers. AdaBoost uses an iterative approach to learn from the mistakes of weak classifiers, and turn them into strong ones.
 AdaBoost, short for Adaptive Boosting, is a statistical classification meta-algorithm.
 #### Hyper Parameters of Decision Tree:
-•	Max_depth: 3  92.37730595196658
-                       5  95.47511312217195
-                       6  95.63974939088061 
-                      10  95.85798816568047
-the value 5 gives us the highest testing accuracy with the minimum complexity
+•	Max_depth: 5
 
-	Hyper Parameters of Adaboost: 
-•	learning_rate: 0.2  95.370692655760521
-1	  94.67455621301775
-0.1	 95.23146536721198
-            The value 0.2 gives the testing accuracy
+#### Hyper Parameters of Adaboost: 
+•	learning_rate: 0.2 
 
-	Training time  =  2.1542320251464844  sec.
+### 2.	SVM: 
+The idea of SVM is that the algorithm creates a line or a hyperplane which separates the data into classes.
 
-	Testing time  =  0.06086564064025879  sec.
+#### Hyper Parameters:
+•	C: 3
+•	Kernel Functions:  SVC with linear kernel
 
-2.	SVM: The idea of SVM is that the algorithm creates a line or a hyperplane which separates the data into classes.
+### 3.	Logistic Regression: 
+one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables.
 
-	Hyper Parameters:
-•	C: 1   89.87121475809259
-2   89.73198746954402
-3   90.01044204664113
-               The value 3 gives the highest testing accuracy.
-
-•	Kernel Functions:  SVC with linear kernel  90.01044204664113
-                                              Linear SVC  43.543334493560735
-                                              SVC with rbf kernel  86.42533936651584
-                                              SVC with poly kernel  89.3491124260355
-
-	Training time  =  28.94691491127014  sec.
-
-	Testing time  =  0.33500170707702637  sec.
+#### Hyperparameters:
+•	Intercept_scaling: 3
+• Solver: liblinear
 
 
-3.	Logistic Regression: one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables.
+![image](https://user-images.githubusercontent.com/76558250/224100443-31b34e3c-c998-4ab7-a719-254e8fe9fbc6.png)
 
-	Hyperparameters:
-•	Intercept_scaling: 1  72.43299686738601
-                                2  75.67003132613992
-                                4  77.06230421162547
-The value 4 give the testing accuracy
+![image](https://user-images.githubusercontent.com/76558250/224100598-2e8ec753-c21d-40c0-b247-5a3c456c7c28.png)
 
-•	C: 4  78.48938391924817
-     2  77.75844065436826
-     1  77.27114514444831
-The value 4 give the testing accuracy
-
-
-	Training time  =  0.6350951194763184  sec. 
-
-	Testing time  =  0.009612798690795898  sec.
+![image](https://user-images.githubusercontent.com/76558250/224100684-6ccd9ec0-6a06-44ad-a855-f889002baaa6.png)
 
