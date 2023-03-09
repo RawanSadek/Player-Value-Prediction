@@ -23,7 +23,7 @@ We used the heat map function to know how each feature affects the other.
 ●	Accuracy: 0.9951267345309258 (99%)
 ●	MSE: 145785361670.41998
 ●	Training Time: about 4.5  sec
-2.	Polynomial Regression:
+### 2.	Polynomial Regression:
 ●	Accuracy: 0.9863949342990068 (98%)
 ●	MSE: 461662358925.458
 ●	Training Time: about 0.3 sec.
